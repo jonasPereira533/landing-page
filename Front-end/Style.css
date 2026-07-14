@@ -1,14 +1,51 @@
+
+:root {
+    --bg: #00040D;
+    --surface: #010D26;
+    --surface-alt: #051633;
+    --border: #024059;
+    --accent: #0396A6;
+    --accent-bright: #04D9D9;
+    --text: #E7F2F3;
+    --text-muted: #8FA7B3;
+
+    --font-display: "JetBrains Mono", monospace;
+    --font-body: "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    line-height: 1.7;
+}
+
 header {
-    font-family: "Prosto One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
     text-align: center;
-
+    padding: 0 0 3.5rem;
 }
 
-main {
-    font-family: "Prosto One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.terminal-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.9rem 1.2rem;
+    background: var(--surface-alt);
+    border-bottom: 1px solid var(--border);
 }
 
+.dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+
+.dot-1 { background: var(--border); }
+.dot-2 { background: var(--accent); }
+.dot-3 { background: var(--accent-bright); }
