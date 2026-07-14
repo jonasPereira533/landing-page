@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>História do Linux</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,10 +10,16 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
- <header>
-     <h1>Como surgiu o Linux</h1>
-     <h2>O sistema do pinguim que mudou completamente a história da computação</h2>
- </header>
+<header>
+    <div class="terminal-bar">
+        <span class="dot dot-1"></span>
+        <span class="dot dot-2"></span>
+        <span class="dot dot-3"></span>
+        <span class="terminal-title">historia_do_linux.sh</span>
+    </div>
+    <h1>Como surgiu o Linux<span class="cursor">_</span></h1>
+    <h2>O sistema do pinguim que mudou completamente a história da computação</h2>
+</header>
 
 <main>
     <section>
@@ -35,7 +42,7 @@
             GNU/Linux — um sistema operacional completo, livre e de código aberto.
         </p>
 
-        <img src="img/small.jpg" alt="Imagem do criado do Linux">
+
 
         <iframe width="560" height="315"
                 src="https://www.youtube.com/embed/s7u7jBwIocU?si=0AuOLaDxQMJu-cOH"
@@ -49,7 +56,7 @@
 
     <section>
         <h2>Linha do tempo</h2>
-        <ul>
+        <ul class="timeline">
             <li>1983 — Richard Stallman funda o Projeto GNU, buscando criar um sistema operacional totalmente livre.</li>
             <li>1991 — Linus Torvalds anuncia o kernel Linux e o disponibiliza sob licença livre.</li>
             <li>1992 — O Linux passa a ser distribuído sob a licença GPL, garantindo que qualquer pessoa pudesse usar, estudar, modificar e compartilhar o código.</li>
@@ -68,13 +75,16 @@
 
 
     <h2>Curiosidades</h2>
-    <p>O nome "Linux" é uma junção de "Linus" com "Unix", sistema que inspirou seu desenvolvimento.
-        Linus Torvalds originalmente queria chamar o projeto de "Freax", mas um colega sugeriu "Linux" ao subir os arquivos para um servidor.
-        O mascote Tux foi escolhido depois que Linus disse ter sido "mordido por um pinguim" em uma visita a um zoológico — e desde então adora o animal.
-        Praticamente 100% dos 500 supercomputadores mais rápidos do mundo rodam Linux.
-        O código do kernel Linux é mantido de forma colaborativa por milhares de desenvolvedores ao redor do mundo até hoje.</p>
+    <div class="curiosidades-row">
+        <p>O nome "Linux" é uma junção de "Linus" com "Unix", sistema que inspirou seu desenvolvimento.
+            Linus Torvalds originalmente queria chamar o projeto de "Freax", mas um colega sugeriu "Linux" ao subir os arquivos para um servidor.
+            O mascote Tux foi escolhido depois que Linus disse ter sido "mordido por um pinguim" em uma visita a um zoológico — e desde então adora o animal.
+            Praticamente 100% dos 500 supercomputadores mais rápidos do mundo rodam Linux.
+            O código do kernel Linux é mantido de forma colaborativa por milhares de desenvolvedores ao redor do mundo até hoje.</p>
 
-    <img src="img/Linux_mascote.png" alt="Linux mascote">
+        <img class="tux-image" src="img/Linux_mascote.png" alt="Linux mascote">
+    </div>
+
 
 
     <blockquote>
