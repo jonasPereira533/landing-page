@@ -4,7 +4,7 @@ Landing page desenvolvida em HTML e CSS puros, contando a história do Linux de 
 
 ##  Preview
 
->
+> https://jonaspereira533.github.io/landing-page/
 
 ##  Funcionalidades
 
